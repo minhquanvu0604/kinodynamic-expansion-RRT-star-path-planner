@@ -1,0 +1,22 @@
+/*!
+
+*/
+
+// without this gap between two doxygen definition, the last group does not get
+// populated properly for some reason.
+
+/*!
+@mainpage Assignment 1: Snippets
+
+The task is to simulates the generation of data from several sensor(rangers) types, and performs data fusion.
+
+This file should decsribe an overview of your code, what it does, what it performs, and how it should be used.
+
+You should not simply drop the assignment specification, rather explain what will happen in your code (interface with users, and overview of logic for fusion).
+
+Look at our other example of a dox file in week04.
+
+@n By Alen Alempijevic
+@n Alen.Alempijevic@uts.edu.au
+
+*/

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g  -rdynamic CMakeFiles/teleop.dir/main.cpp.o  -o teleop   -L/opt/ros/noetic/lib  -L/opt/ros/melodic/lib  -Wl,-rpath,/opt/ros/noetic/lib:/opt/ros/melodic/lib libackerman.a -lpipes 

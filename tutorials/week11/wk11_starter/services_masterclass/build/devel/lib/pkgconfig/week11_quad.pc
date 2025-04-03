@@ -1,0 +1,8 @@
+prefix=/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week11/wk11_starter/services_masterclass/build/devel
+
+Name: week11_quad
+Description: Description of week11_quad
+Version: 0.0.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

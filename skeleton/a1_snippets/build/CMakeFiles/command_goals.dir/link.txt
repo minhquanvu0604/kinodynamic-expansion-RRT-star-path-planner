@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g  -rdynamic CMakeFiles/command_goals.dir/command_goals.cpp.o  -o command_goals   -L/opt/ros/noetic/lib  -L/opt/ros/melodic/lib  -Wl,-rpath,/opt/ros/noetic/lib:/opt/ros/melodic/lib -lpipes 

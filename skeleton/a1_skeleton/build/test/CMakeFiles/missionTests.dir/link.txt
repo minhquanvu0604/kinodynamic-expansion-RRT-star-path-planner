@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g  -rdynamic CMakeFiles/missionTests.dir/test_mission.cpp.o  -o missionTests   -L/opt/ros/noetic/lib  -L/opt/ros/melodic/lib  -Wl,-rpath,/opt/ros/noetic/lib:/opt/ros/melodic/lib /usr/src/gtest/lib/libgtest.a -llinkcommand libstudent_lib.a -lpthread -lpipes 

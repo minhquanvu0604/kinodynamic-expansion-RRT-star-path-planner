@@ -1,0 +1,78 @@
+
+/** \mainpage
+
+@htmlinclude manifest.html
+
+@b a5_help is a sample package prepared for PfMS to assist students in completing Assignment 3 - Individual Project
+
+@section usage Common Usage
+
+Nothin here yet!
+
+@subsection test_filter TestFilter
+
+Nothing here yet!
+
+ - ros::Time stamp_
+ - std::string frame_id_
+ - std::string child_frame_id_  (only used for Stamped<Transform> )
+
+- Time represented by ros::Time and ros::Duration in ros/time.h in roscpp 
+
+
+
+Autonomous Vehicle Path Planning with RRT*
+
+Project exploration
+
+The project is for the Assignment 3 of Programming for Mechatronic System. Robotic Opering
+System (ROS) is utilized for the facilitation of simulation tools and communciation methods.
+A number of core objectives can be outlined:
+
+    - Communcation between ROS nodes via publishing, subscribing and service call action
+    - Implement OOP programming methods to program a controller for the Ackerman, with
+    criteria of modularity, scalability and readablity
+    - Process laser data to acquire some requirements in the assignemnt, including path and cone
+    recognition, autonomous path planning  
+
+The project challenge centers around finding the path to control the Ackerman to travel 
+within a track. The track is dictated by cones which are placed on its two sides. Therefore,
+the mission of the controller is to find the correct path from sensor data.
+
+Given that the laser data is succintly retrieved and the cones are visible to the controller, 
+a wide range of control methods can be applied:
+
+    - Finding the middle points of pairs of cones: this approach is simple and straightforward,
+    but requires heuristics to finetune to solve specific cases, for example when the car approaches 
+    turns. Consquently, the soluation may be specific to a predefined set of cones and may contain hardcode.
+    
+    - Heuristic RRT and RRT*: this approach is utilized by the author. It deviates from the original algorithm of 
+    RRT in terms of taking advantage in heuristics to faster converge to the solution. The outcome is 
+    a controller that can solve more general cases with different cones geometry. Its drawbacks are 
+    algorithm complexity and computational expense.
+    
+    -Delaunay triagulation and finding middle points of cones: this approach is an extension to the 
+    first candidate solution, taking into account a more generalized situation in which cones are not placed
+    by appanrent pairs
+    -Voronoi diagrams: an additional strategy from Delaunay triagulation with same of advantages
+
+All the algorithms above should use some graph search methods to find the best track 
+
+Implementation:
+
+For the laser processing, I process the data retrived in its inherent polar coordinate. The simulation does not 
+impose noise, potential malfunction or limitation of the sensor, therefore, I was able to focus on the 
+cone extraction. Additionally, there is a truck placed outside of the cones, which needs to be filtered out. In cases
+where is truck is placed directly into the road, the car has to stop. Therefore, more logic is corporated into 
+the laser processing.
+
+For the autnomous path regconition, I chose a RRT-based graph search method. It is a big challenge to complete the program due 
+to its complexity and endeavours to finetuning a wide set parameters. Different from the other nominated solutions, this 
+methods can potentially find shorter paths through the track. However, large computational effort is required, otherwise the 
+resulting path will not be smooth due to the nature of RRT* algorithm.
+
+My experience with solving the issue this way is that RRT* alone does not seem to suffice. The car misses the last turn in the track,
+since it is the steepest one. When the car turns, the tree can see an unintended section of the track and follows.  
+
+*/
+

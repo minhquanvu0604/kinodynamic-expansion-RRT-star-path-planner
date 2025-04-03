@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include   -std=c++11 -g   -o CMakeFiles/populate_back.dir/populate_back.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/populate_back.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/populate_back.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include   -std=c++11 -g   -o CMakeFiles/command_uav.dir/command_uav.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/command_uav.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/command_uav.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include   -std=c++11 -g   -o CMakeFiles/command_ugv.dir/command_ugv.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/command_ugv.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/command_ugv.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include   -std=c++11 -g   -o CMakeFiles/populate_first.dir/populate_first.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/populate_first.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/populate_first.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include   -std=c++11 -g   -o CMakeFiles/command_goals.dir/command_goals.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/command_goals.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/command_goals.cpp"
+}
+]

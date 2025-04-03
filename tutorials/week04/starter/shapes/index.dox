@@ -1,0 +1,32 @@
+/*!
+
+*/
+
+// without this gap between two doxygen definition, the last group does not get
+// populated properly for some reason.
+
+/*!
+@mainpage A Sample for 41012 Students
+
+Our main goal is the continuing progress in robotic research and the robotic industry. The main challenge we see at present is the software specific to robots, both its complexity and the sheer amount of it. 
+
+@section ac_doc_index_more_info Where to start
+
+- This just divides the general instructions here for students
+
+@section ac_doc_install Installation
+
+@subsection ac_doc_step1 Step 1: Opening the box
+
+Openning the box
+
+@subsection ac_doc_step2 Step 2: Running applications
+    
+The system needs three components running, please run:
+
+  \verbatim
+./tests/lo_up ../cfg/sim.cfg
+./tests/acLoc ../cfg/sim.cfg
+  \endverbatim
+
+*/

@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/quanvu/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/quanvu/ros/tony_ws/devel/lib/python3/dist-packages",
+        "/home/quanvu/git/MVPS/build/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/quanvu/ros/apple_ws/devel/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/quanvu/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/quanvu/ros/tony_ws/devel/lib/python3/dist-packages",
+        "/home/quanvu/git/MVPS/build/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/quanvu/ros/apple_ws/devel/lib/python3/dist-packages"
+    ]
+}

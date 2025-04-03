@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g  -rdynamic CMakeFiles/command_ugv.dir/command_ugv.cpp.o  -o command_ugv   -L/opt/ros/noetic/lib  -L/opt/ros/melodic/lib  -Wl,-rpath,/opt/ros/noetic/lib:/opt/ros/melodic/lib -lpipes 

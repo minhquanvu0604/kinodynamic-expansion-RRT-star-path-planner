@@ -1,0 +1,8 @@
+prefix=/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week10/wk10_examples/topics_masterclass/build/devel
+
+Name: week10_laser_solution
+Description: Description of week10_laser_solution
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

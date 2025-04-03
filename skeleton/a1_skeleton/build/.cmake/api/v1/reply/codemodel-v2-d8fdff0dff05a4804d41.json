@@ -1,0 +1,140 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "a1_skeleton",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "a1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a1-Debug-48937136a58702dac335.json",
+					"name" : "a1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "audiTests::@36f028580bb02cc8272a",
+					"jsonFile" : "target-audiTests-Debug-4e32eee13842fa7d00cf.json",
+					"name" : "audiTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "calcTests::@36f028580bb02cc8272a",
+					"jsonFile" : "target-calcTests-Debug-c1cd02f75acb3da8893d.json",
+					"name" : "calcTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller-Debug-3e3ebf940a0f129ea8f8.json",
+					"name" : "controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission-Debug-2fc075b183760ba68d4e.json",
+					"name" : "mission",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "missionTests::@36f028580bb02cc8272a",
+					"jsonFile" : "target-missionTests-Debug-50713070ff4562b9e398.json",
+					"name" : "missionTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-my_test-Debug-7021656fa63e9ac33b82.json",
+					"name" : "my_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "student_lib::@36f028580bb02cc8272a",
+					"jsonFile" : "target-student_lib-Debug-e9b228128dc4453e7a24.json",
+					"name" : "student_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build",
+		"source" : "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g  -rdynamic CMakeFiles/quadcopterReachGoals.dir/quadcopterReachGoals.cpp.o  -o quadcopterReachGoals   -L/opt/ros/noetic/lib  -L/opt/ros/melodic/lib  -Wl,-rpath,/opt/ros/noetic/lib:/opt/ros/melodic/lib /usr/src/gtest/lib/libgtest.a libstudent_lib.a -llinkcommand -lpthread -lpipes 

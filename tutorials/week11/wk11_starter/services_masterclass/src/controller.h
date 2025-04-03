@@ -1,0 +1,131 @@
+#ifndef CONTROLLER_H
+#define CONTROLLER_H
+
+#include "controllerinterface.h"
+#include <cmath>
+
+//Instead of Pipes now we need to use Ros communication machanism and messages
+//#include <pipes.h>
+#include "ros/ros.h"
+#include "tf/transform_datatypes.h" //To use getYaw function from the quaternion of orientation
+
+
+//! Information about the goal for the platform
+struct GoalStats {
+    //! location of goal
+    //pfms::geometry_msgs::Point location;
+    geometry_msgs::Point location;
+
+    //! distance to goal
+    double distance;
+    //! time to goal
+    double time;
+};
+
+/**
+ * \brief Shared functionality/base class for platform controllers
+ *
+ * Platforms need to implement:
+ * - Controller::calcNewGoal (and updating GoalStats)
+ * - ControllerInterface::reachGoal (and updating PlatformStats)
+ * - ControllerInterface::checkOriginToDestination
+ * - ControllerInterface::getPlatformType
+ * - ControllerInterface::getOdometry (and updating PlatformStats.odo)
+ */
+class Controller: public ControllerInterface
+{
+public:
+  /**
+   * Default Controller constructor, sets odometry and metrics to initial 0
+   */
+  Controller();
+
+  /**
+   * Instructs the underlying platform to recalcuate a goal, and set any internal variables as needed
+   *
+   * Called when goal or tolerance changes
+   * @return Whether goal is reachable by the platform
+   */
+  virtual bool calcNewGoal() = 0;
+
+//We would now have to sacrifice having a return value to have a setGoal
+//At week 10 we do not know about services (which allow us to retrun value
+//So to allow to set a goal via topic we forfit having areturn value for now
+//At week 11 you can replace this with a service
+//bool Controller::setGoal(geometry_msgs::Point goal) {
+//in A1/A2 was : bool setGoal(pfms::geometry_msgs::Point goal);
+void setGoal(const geometry_msgs::Point::ConstPtr& msg);  
+
+  /**
+  Checks whether the platform can travel between origin and destination
+  @param[in] origin The origin pose, specified as odometry for the platform
+  @param[in] destination The destination point for the platform
+  @param[in|out] distance The distance [m] the platform will need to travel between origin and destination. If destination unreachable distance = -1
+  @param[in|out] time The time [s] the platform will need to travel between origin and destination, If destination unreachable time = -1
+  @param[in|out] estimatedGoalPose The estimated goal pose when reaching goal
+  @return bool indicating the platform can reach the destination from origin supplied
+  */
+  virtual bool checkOriginToDestination(nav_msgs::Odometry origin,
+                                        geometry_msgs::Point goal,
+                                        double& distance,
+                                        double& time,
+                                        nav_msgs::Odometry& estimatedGoalPose) = 0;
+
+
+  //pfms::PlatformType getPlatformType(void);
+
+  bool setTolerance(double tolerance);
+
+  double distanceTravelled(void);
+
+  double timeInMotion(void);
+
+  double distanceToGoal(void);
+
+  double timeToGoal(void);
+
+  /**
+   * Updates the internal odometry
+   *
+   * Sometimes the pipes can give all zeros on opening, this has a little extra logic to ensure only valid data is
+   * accepted
+   */
+  //pfms::nav_msgs::Odometry getOdometry(void);
+  nav_msgs::Odometry getOdometry(void);
+
+  void odoCallback(const nav_msgs::Odometry::ConstPtr& msg);
+
+protected:
+  /**
+   * Checks if the goal has been reached.
+   *
+   * Update own odometry before calling!
+   * @return true if the goal is reached
+   */
+  bool goalReached();
+
+
+  //stats
+  GoalStats goal_;
+  bool goalSet_;
+  
+  double distance_travelled_; //!< Total distance travelled for this program run
+  double time_travelled_; //!< Total time spent travelling for this program run
+  double tolerance_; //!< Radius of tolerance
+  long unsigned int cmd_pipe_seq_; //!<The sequence number of the command
+
+  //Instead of Pipes now we use ROS communication mechanism
+  //Pipes* pipesPtr_; //!< The pipe to communicate
+  ros::NodeHandle nh_;
+  ros::Subscriber sub1_;
+  ros::Subscriber sub2_;
+
+// Move here under private to protect them, only accessed via getOdometry and Callback (to handle mutex)
+private:
+  nav_msgs::Odometry odo_;//!< The current pose of platform
+  std::mutex odoMtx_;     /*!< Mutex to lock robotPose_ */
+
+
+};
+
+#endif // CONTROLLER_H

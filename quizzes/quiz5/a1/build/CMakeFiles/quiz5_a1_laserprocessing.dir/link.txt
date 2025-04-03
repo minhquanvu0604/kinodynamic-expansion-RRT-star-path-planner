@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11  -Wno-deprecated -Wdeprecated-declarations -g  -shared -Wl,-soname,libquiz5_a1_laserprocessing.so -o devel/lib/libquiz5_a1_laserprocessing.so CMakeFiles/quiz5_a1_laserprocessing.dir/src/laserprocessing.cpp.o 

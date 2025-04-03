@@ -1,0 +1,7 @@
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build/CMakeFiles/rebuild_cache.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build/CMakeFiles/edit_cache.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build/CMakeFiles/populate_back.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build/CMakeFiles/command_uav.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build/CMakeFiles/command_ugv.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build/CMakeFiles/populate_first.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build/CMakeFiles/command_goals.dir

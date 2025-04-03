@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstudent_lib.a  CMakeFiles/student_lib.dir/__/ackerman.cpp.o CMakeFiles/student_lib.dir/__/controller.cpp.o CMakeFiles/student_lib.dir/__/mission.cpp.o
+/usr/bin/ranlib libstudent_lib.a

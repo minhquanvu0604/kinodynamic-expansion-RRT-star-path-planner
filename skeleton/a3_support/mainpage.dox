@@ -1,0 +1,96 @@
+
+/** \mainpage
+
+@htmlinclude manifest.html
+
+@b a3_support is a support package prepared for PfMS to assist students in completing Assignment 3 - Individual Project
+
+The support package can publish/record to a GOALS file. The GOALS file syntax is space seperated rows of three values (x y z).
+Examine data/GOALS.txt for syntax.
+
+@section goals_publisher Goals Publisher
+
+The goals_publisher node will load goals from a file and publish it and terminate. Goals are published to
+
+<b>/goals</b> topic as a geometry_msgs::PoseArray<br>
+Each goal is a Pose in the array. In the Pose the position is reported, orientation is a quaternion of 0 degree
+
+<b>/visualization_marker</b> topic as a visualization_msgs::MarkerArray<br>
+Each goal is a Marker in the array. The Marker is reported in world coordinate frames, namespace goals, type CUBE, colour green, 50% transparency.<br>
+CUBES are centred around the goal, with sides equal to 1m.
+
+@subsection goals_publisher_running Running the code
+
+To run the goals_publisher loading the default file GOALS.TXT which is in this package (data folder)
+
+  rosrun a3_support goals_publisher
+
+You can supply a goal file <b>rosrun a3_support goals_publisher _goals:=<full filename></b> for instance
+
+    rosrun a3_support goals_publisher _goals:=/home/student/my_goals.txt
+
+To change the topic goals are published you can use ROS mapping of topics.<br>
+For instance, publishing to /goals/mission is mapping /goals to this topic name  via <b> := </b> redirect.<br>
+
+    rosrun a3_support goals_publisher _goals:=<full filename> /goals:=/goals/mission
+
+
+@subsection goals_publisher_example Example file output
+
+If you are running rviz using
+
+    roslaunch gazebo_tf uav_a3.launch
+
+and therafter run
+
+    rosrun a3_support goals_publisher
+
+\image html pic/rviz.png width=800
+
+@section goals_logger Goals Logger
+
+The goals_logger node will save goals to a file.
+
+/clicked_point topic that it subscribes and uses points foe logging as a geometry_msgs::PoseStamped
+Each goal is a PoseStamped, the position is saved, orientation is disregarded.
+
+/visualization_marker topic as a visualization_msgs::MarkerArray
+Each goal is a Marker in the array. The Marker is reported in world coordinate frames, namespace goals_clicked, type CUBE, colour violet, 50% transparency.<br>
+CUBES are centred around the goal, with sides equal to 1m.
+
+@subsection goals_logger_running Running the code
+
+You need to supply the filename (will default to filename GOALS.TXT in folder where executing rosrun), if unable to open file for writting node will terminate immediately. <br>
+If you have supplied a filename previosuly, it will re-use the filename, overwriting the contents.
+
+    rosrun a3_support goals_logger  _goals:=<full filename>
+
+
+For instance
+
+    rosrun a3_support goals_logger _goals:=/home/student/my_goals.txt
+
+You select points to be logged via rviz. If you are running rviz using eiher uav or ugv
+
+    roslaunch gazebo_tf uav_a3.launch
+
+Recommed to select View (TopDownOrtho) - as indicated on left of image. <br>
+Select the Publish Point tool from the ribbon <br>
+You can click when you see the Publish Point icon on the screen  next to your cursor.<br>
+When clicking it will produce accurate 2d (x,y) points, while for z you will need to subsequently edit file if needed. <br>
+
+
+\image html pic/rviz2.png width=800
+
+The output on screen will be:
+
+    [ INFO] [1653533129.051458500]: file name with goals to be saved:/home/student/my_goals.txt
+    [ INFO] [1653533180.040708019, 614.209000000]: Saving: 0.00537686 2.67446 -0.00143433
+
+Terminating the node will close the file
+
+    student@lucani:~$ more my_goals.txt
+    0.00537686 2.67446 -0.00143433
+
+*/
+

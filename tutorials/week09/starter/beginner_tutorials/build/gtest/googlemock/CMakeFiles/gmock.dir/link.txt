@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -g  -shared -Wl,-soname,libgmockd.so -o ../lib/libgmockd.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week09/starter/beginner_tutorials/build/gtest/lib ../lib/libgtestd.so -lpthread 

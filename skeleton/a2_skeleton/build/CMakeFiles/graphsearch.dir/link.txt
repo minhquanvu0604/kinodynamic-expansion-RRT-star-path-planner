@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgraphsearch.a  CMakeFiles/graphsearch.dir/graphsearch.cpp.o CMakeFiles/graphsearch.dir/ackermansearch.cpp.o CMakeFiles/graphsearch.dir/quadcoptersearch.cpp.o CMakeFiles/graphsearch.dir/supersearch.cpp.o
+/usr/bin/ranlib libgraphsearch.a

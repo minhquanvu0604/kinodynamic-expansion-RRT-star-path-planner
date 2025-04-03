@@ -1,0 +1,22 @@
+/*!
+
+*/
+
+// without this gap between two doxygen definition, the last group does not get
+// populated properly for some reason.
+
+/*!
+@mainpage Assignment 2: Snippets
+
+This folder contains only a single file control_ugv that 
+
+ * Allows user to input a goal on command line 
+ * Controls Audi via constant steering and 0.1 throttle to reach within 0.1m of the goal
+ * Upon reaching the distance to goal the Audi applies full brakes until velocity is near zero (0.01m/s)
+
+To run ./command_ugv 0.0 10.0 (will drive Audi to goal x=0 y=10)
+
+@n By Alen Alempijevic
+@n Alen.Alempijevic@uts.edu.au
+
+*/

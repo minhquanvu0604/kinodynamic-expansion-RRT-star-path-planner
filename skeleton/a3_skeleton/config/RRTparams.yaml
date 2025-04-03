@@ -1,0 +1,9 @@
+iteration: 1000
+planDistance: 30
+turnAngle: 20
+neighboorhoodRange: 4
+expandDist: 1.5
+animation: true
+obstacleSize: 3
+maxRangeFromTarget: 12
+distanceToExclude: 10

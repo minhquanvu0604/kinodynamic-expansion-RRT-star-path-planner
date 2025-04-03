@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week06/examples/teleop/ackerman.cpp
+ackerman.h
+/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week06/examples/teleop/ackerman.h
+iostream
+-
+cmath
+-
+
+/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week06/examples/teleop/ackerman.h
+thread
+-
+mutex
+-
+atomic
+-
+vector
+-
+pfms_types.h
+/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week06/examples/teleop/pfms_types.h
+pipes.h
+/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week06/examples/teleop/pipes.h
+

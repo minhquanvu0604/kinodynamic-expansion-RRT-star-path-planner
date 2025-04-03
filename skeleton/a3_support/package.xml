@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>a3_support</name>
+  <version>0.0.1</version>
+  <description>support package for 41012 : A3 Individual Project Assignment</description>
+  <maintainer email="Alen.Alempijevic@uts.edu.au">Alen Alempijevic</maintainer>
+  <author email="Alen.Alempijevic@uts.edu.au">Alen Alempijevic</author>
+  <url type="website">TODO</url>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>roslib</build_depend>
+
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>roslib</run_depend>
+
+  <export>
+  </export>
+</package>

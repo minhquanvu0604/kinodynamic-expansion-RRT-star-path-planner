@@ -1,0 +1,182 @@
+---------------------------------------------------------------------
+ A1 
+---------------------------------------------------------------------
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GTest: /usr/src/gtest/lib/libgtest.a  
+-- The include for simulator is 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aalempij/Data/git/pfms-2023a-/pfms-2023a-minhquanvu0604/quizzes/quiz4/a1/build
+**********************************************************************
+Making tests distributed with quiz
+----------------------------------------------------------------------
+Scanning dependencies of target controllers
+[ 20%] Building CXX object CMakeFiles/controllers.dir/controller.cpp.o
+[ 40%] Building CXX object CMakeFiles/controllers.dir/quadcopter.cpp.o
+[ 60%] Linking CXX static library libcontrollers.a
+[ 60%] Built target controllers
+Scanning dependencies of target selfTest
+[ 80%] Building CXX object marking/CMakeFiles/selfTest.dir/utest.cpp.o
+[100%] Linking CXX executable selfTest
+[100%] Built target selfTest
+Executing self Test
+---------------------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from QuadcopterTest
+[ RUN      ] QuadcopterTest.Constructor
+[       OK ] QuadcopterTest.Constructor (2806 ms)
+[ RUN      ] QuadcopterTest.Goals
+Quadcopter: can reach goal 4.12311[m] 10.3078[s]
+Distance to goal:0.157377
+Quadcopter: can reach goal 8.39653[m] 20.9913[s]
+Distance to goal:0.166659
+[       OK ] QuadcopterTest.Goals (35577 ms)
+[----------] 2 tests from QuadcopterTest (38383 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (38384 ms total)
+[  PASSED  ] 2 tests.
+---------------------------------------------------------------------
+----------------------------------------------------------------------
+Making marking test
+----------------------------------------------------------------------
+[ 60%] Built target controllers
+Scanning dependencies of target markingTest
+[ 80%] Building CXX object marking/CMakeFiles/markingTest.dir/utest2.cpp.o
+[100%] Linking CXX executable markingTest
+[100%] Built target markingTest
+----------------------------------------------------------------------
+Executing marking test
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from QuadcopterTest
+[ RUN      ] QuadcopterTest.TotalDistance
+Quadcopter: can reach goal 4.12311[m] 10.3078[s]
+/home/aalempij/Data/git/pfms-2023a-/pfms-2023a-minhquanvu0604/quizzes/quiz4/a1/marking/utest2.cpp:60: Failure
+Value of: reached
+  Actual: false
+Expected: true
+[  FAILED  ] QuadcopterTest.TotalDistance (13966 ms)
+[ RUN      ] QuadcopterTest.TotalTime
+Quadcopter: can reach goal 2.27181[m] 5.67952[s]
+Quadcopter: can reach goal 3.62029[m] 9.05073[s]
+[       OK ] QuadcopterTest.TotalTime (18866 ms)
+[----------] 2 tests from QuadcopterTest (32832 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (32832 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] QuadcopterTest.TotalDistance
+
+ 1 FAILED TEST
+---------------------------------------------------------------------
+Part A1 scored 3
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+ A2 
+---------------------------------------------------------------------
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/aalempij/Data/git/pfms-2023a-/pfms-2023a-minhquanvu0604/quizzes/quiz4/a2/build/devel
+-- Using CMAKE_PREFIX_PATH: /home/aalempij/pfms_ws/devel;/opt/ros/noetic
+-- This workspace overlays: /home/aalempij/pfms_ws/devel;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/aalempij/Data/git/pfms-2023a-/pfms-2023a-minhquanvu0604/quizzes/quiz4/a2/build/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found GTest: /usr/lib/x86_64-linux-gnu/libgtest.a  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aalempij/Data/git/pfms-2023a-/pfms-2023a-minhquanvu0604/quizzes/quiz4/a2/build
+**********************************************************************
+Making tests distributed with quiz
+----------------------------------------------------------------------
+Scanning dependencies of target analysis
+[ 25%] Building CXX object CMakeFiles/analysis.dir/src/analysis.cpp.o
+[ 50%] Linking CXX shared library devel/lib/libanalysis.so
+[ 50%] Built target analysis
+Scanning dependencies of target selfTest
+[ 75%] Building CXX object marking/CMakeFiles/selfTest.dir/utest.cpp.o
+[100%] Linking CXX executable ../devel/lib/quiz4_a2/selfTest
+[100%] Built target selfTest
+----------------------------------------------------------------------
+Executing tests distributed with quiz
+---------------------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AnalysisTest
+[ RUN      ] AnalysisTest.CountCharecters
+[       OK ] AnalysisTest.CountCharecters (0 ms)
+[----------] 1 test from AnalysisTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+---------------------------------------------------------------------
+----------------------------------------------------------------------
+Making marking test
+----------------------------------------------------------------------
+[ 50%] Built target analysis
+Scanning dependencies of target markingTest
+[ 75%] Building CXX object marking/CMakeFiles/markingTest.dir/utest2.cpp.o
+[100%] Linking CXX executable ../devel/lib/quiz4_a2/markingTest
+[100%] Built target markingTest
+----------------------------------------------------------------------
+Executing tests distributed with quiz
+---------------------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AnalysisTest
+[ RUN      ] AnalysisTest.DetermineNumber
+[       OK ] AnalysisTest.DetermineNumber (0 ms)
+[----------] 1 test from AnalysisTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+Part A2 scored 2
+---------------------------------------------------------------------

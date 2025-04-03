@@ -1,0 +1,212 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5,
+						6,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "a2_skeleton",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "assignment2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assignment2-Debug-08d1c6ea048e39924ac8.json",
+					"name" : "assignment2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "audiCheckOriginToDestination::@36f028580bb02cc8272a",
+					"jsonFile" : "target-audiCheckOriginToDestination-Debug-19af9e8485ebf3784833.json",
+					"name" : "audiCheckOriginToDestination",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "audiReachGoal::@36f028580bb02cc8272a",
+					"jsonFile" : "target-audiReachGoal-Debug-40cc22ab75cf1fc21a42.json",
+					"name" : "audiReachGoal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "audiReachGoals::@36f028580bb02cc8272a",
+					"jsonFile" : "target-audiReachGoals-Debug-66de85b43293a223222c.json",
+					"name" : "audiReachGoals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller-Debug-485f0542585ee205f96c.json",
+					"name" : "controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "getPlatformAssociationTest::@36f028580bb02cc8272a",
+					"jsonFile" : "target-getPlatformAssociationTest-Debug-137e37b8d3c0c50ae0e2.json",
+					"name" : "getPlatformAssociationTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "graphSearchTest::@36f028580bb02cc8272a",
+					"jsonFile" : "target-graphSearchTest-Debug-982eb45b117d3d26102e.json",
+					"name" : "graphSearchTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graphsearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graphsearch-Debug-aafe6f24f1080eaadab1.json",
+					"name" : "graphsearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "logger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-logger-Debug-15073fa966d08b772451.json",
+					"name" : "logger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission-Debug-696dd95fc8cedf943daf.json",
+					"name" : "mission",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "missionExReachGoals::@36f028580bb02cc8272a",
+					"jsonFile" : "target-missionExReachGoals-Debug-a5976cd1b4f2de8f19be.json",
+					"name" : "missionExReachGoals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "quadcopterCheckOriginToDestination::@36f028580bb02cc8272a",
+					"jsonFile" : "target-quadcopterCheckOriginToDestination-Debug-7ae590690b33813c60b2.json",
+					"name" : "quadcopterCheckOriginToDestination",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "quadcopterReachGoal::@36f028580bb02cc8272a",
+					"jsonFile" : "target-quadcopterReachGoal-Debug-eda7380124b748cd3e6c.json",
+					"name" : "quadcopterReachGoal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "quadcopterReachGoals::@36f028580bb02cc8272a",
+					"jsonFile" : "target-quadcopterReachGoals-Debug-5fc9c42b5ef51bfec427.json",
+					"name" : "quadcopterReachGoals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "student_lib::@36f028580bb02cc8272a",
+					"jsonFile" : "target-student_lib-Debug-0edee129a0267da8dee7.json",
+					"name" : "student_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "superTest::@36f028580bb02cc8272a",
+					"jsonFile" : "target-superTest-Debug-a0e9d0fded9bf0013be1.json",
+					"name" : "superTest",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a2_skeleton/build",
+		"source" : "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a2_skeleton"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

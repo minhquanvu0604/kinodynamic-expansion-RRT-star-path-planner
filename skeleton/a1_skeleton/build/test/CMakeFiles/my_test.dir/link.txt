@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g  -rdynamic CMakeFiles/my_test.dir/my_test.cpp.o  -o my_test   -L/opt/ros/noetic/lib  -L/opt/ros/melodic/lib  -Wl,-rpath,/opt/ros/noetic/lib:/opt/ros/melodic/lib /usr/src/gtest/lib/libgtest.a -llinkcommand libstudent_lib.a -lpthread -lpipes 

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package>
+  <name>quiz5_a1</name>
+  <version>0.0.1</version>
+  <description>Quiz5 a1 code</description>
+
+  <maintainer email="Alen.Alempijevic@uts.edu.au">Alen Alempijevic</maintainer>
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+  <author email="Alen.Alempijevic@uts.edu.au">Alen Alempijevic</author> 
+
+  <!-- The *_depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>project_setup</build_depend> <!-- This package depends on a4_setup, as we use a service declared there -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>rosbag</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <run_depend>project_setup</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>rosbag</run_depend>
+  <run_depend>message_runtime</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

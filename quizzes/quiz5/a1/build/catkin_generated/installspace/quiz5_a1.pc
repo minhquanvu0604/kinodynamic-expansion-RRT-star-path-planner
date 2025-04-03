@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: quiz5_a1
+Description: Description of quiz5_a1
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,95 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "a1_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "command_goals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-command_goals-Debug-062f88d54bfccfe13f5b.json",
+					"name" : "command_goals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "command_uav::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-command_uav-Debug-8ec535f3ad5e038b008d.json",
+					"name" : "command_uav",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "command_ugv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-command_ugv-Debug-cc952d52da8fd0d42aa6.json",
+					"name" : "command_ugv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "populate_back::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-populate_back-Debug-7b1fd0529258f23886b7.json",
+					"name" : "populate_back",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "populate_first::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-populate_first-Debug-3303c761ae45be1f311e.json",
+					"name" : "populate_first",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/build",
+		"source" : "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

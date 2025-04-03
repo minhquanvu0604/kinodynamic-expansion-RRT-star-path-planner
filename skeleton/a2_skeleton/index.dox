@@ -1,0 +1,87 @@
+
+
+/*!
+@mainpage Project 2: Robotic Platform Skeleton
+The primary objective of this project is to control a real-world platforms, such as an audi or drones via programming technique in C++.
+
+
+@subsection step1 Step 1: Code functionality and execution
+The project consists of two classes, Ackerman and Quadcopter, which control their respective objects, and a Mission class that assigns missions to the platforms.
+
+Generally, a list of goal points will be provided to the platform. The code will guide the platform to reach all these points in the specified order (depending on the mission type), if possible.
+
+There are three mission types: Basic, Advanced, and Super mode.
+
+Basic mode: The platform must reach all the given goals in the provided order (if possible).
+
+Advanced mode: The platform is given a set of goals, and the code must process and calculate the minimum total distance traveled while visiting each goal once.
+
+Super mode: Separate sets of goals are given for each platform, and the code must redistribute the goals among the controllers to minimize the total distance traveled while visiting each goal once.
+
+After creating a new platform (Ackerman or Quadcopter), the code specifies the goals, evaluates them, and then runs the mission.
+
+First, the tester/user provides a list of goals, which will be considered as a mission for the platform. The tester/user also specifies the mission's objective.
+
+Then, the program runs the setGoal() function for the provided set of goals in the mission. It also checks if the mission is possible to execute by running the checkOriginToDestination() function.
+
+After setting goals for the platform(s), the functions in the graphSearch class are called to search for the optimal goals for the platform(s).
+
+When the setGoal() function is called, the new distance-to-goal and time-to-goal values are updated internally.
+
+After verifying the mission status, the program allows the platform to run towards the goals in the provided sequence by calling the run() function.
+
+The run() function is a non-blocking call, so it returns immediately.
+
+The project uses four threads in total: one for running Ackerman, one for running Quadcopter, one for the simulator, and one (the main) for the mission.
+
+While the two platforms are running, the main thread can access functions such as getDistanceTravelled and getTimeTravelled. These two functions are protected by a mutex to prevent simultaneous access by multiple threads.
+
+
+@subsection step2 Step 2: Expected outcomes
+
+The code will first process the mission to generate a suitable set of goals for the platform(s) that align with the mission's objective.
+
+The Ackerman platform should gradually accelerate with a throttle of 0.1 and a brake of 0 from a stationary position. When it is about to reach the goal, it sets the throttle to 0 and the brake to 8000 at a point located within the tolerance area of the expected goal.
+
+The Ackerman platform's steering angle remains constant during travel, and the steering angle value only changes when a new goal is set.
+
+The platform repeats this process for the next goal and comes to a complete stop at the final goal.
+
+The Quadcopter platform must take off before moving (by sending a TAKE OFF command). The quadcopter maintains a constant velocity during motion.
+
+The moving direction of the Quadcopter is determined during motion and remains fixed until a new goal is set.
+
+In Advanced mode, the code reorders the provided set of goals before sending them to the platforms to execute.
+
+In Super mode, the code gathers all sets of goals for the platforms and calculates the shortest path, then assigns goals to each platform to execute.
+
+@subsection step3 Step 3: Running the applications
+The system has 10 testing components, which can be run as follows:
+
+Three tests for the AUDI (Basic mode):
+./test/audiCheckOriginToDestination
+./test/audiReachGoal
+./test/audiReachGoals
+
+Three tests for the QUADCOPTER (Basic mode):
+./test/quadcopterCheckOriginToDestination
+./test/quadcopterReachGoal
+./test/quadcopterReachGoals
+
+One test for the MISSION:
+./test/missionExReachGoals
+
+One test for the Advanced mode graph search
+./test/graphSearchTest
+
+One test for Super Mode (Ackerman and Quadcopter run together after redistributing a set of goals):
+./test/superTest
+
+One test for the getPlatformAssociation function, which has 3 test suites for 3 modes 
+./test/getPlatformAssociationTest
+
+The test for the graph search only print out the correct order, and the result is to compare is obtained by picking 
+obvious result. There is no other ways to compute the correct points order.
+
+Please note that small images (<20kB) should be compressed and resized before including them in the documentation.
+*/

@@ -1,0 +1,573 @@
+---------------------------------------------------------------------
+ A1 
+---------------------------------------------------------------------
+**********************************************************************
+Making tests distributed with quiz
+----------------------------------------------------------------------
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/aalempij/pfms_ws/devel
+-- Using CMAKE_PREFIX_PATH: /home/aalempij/pfms_ws/devel;/opt/ros/noetic
+-- This workspace overlays: /home/aalempij/pfms_ws/devel;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/aalempij/pfms_ws/build/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 8 packages in topological order:
+-- ~~  - audibot (metapackage)
+-- ~~  - audibot_description
+-- ~~  - rrbot_description
+-- ~~  - quiz5_a1
+-- ~~  - quiz5_a2
+-- ~~  - sjtu_drone
+-- ~~  - gazebo_tf
+-- ~~  - audibot_gazebo
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin metapackage: 'audibot'
+-- ==> add_subdirectory(pfms-ros/audibot/audibot)
+-- +++ processing catkin package: 'audibot_description'
+-- ==> add_subdirectory(pfms-ros/audibot/audibot_description)
+-- Extracting file: meshes.tar.xz
+-- +++ processing catkin package: 'rrbot_description'
+-- ==> add_subdirectory(pfms-ros/rrbot_description)
+-- +++ processing catkin package: 'quiz5_a1'
+-- ==> add_subdirectory(quiz5/a1)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+--  CMake C++ FLAGS -std=c++11  -Wno-deprecated -Wdeprecated-declarations
+--  catkin_LIBRARIES /opt/ros/noetic/lib/librosbag.so;/opt/ros/noetic/lib/librosbag_storage.so;/opt/ros/noetic/lib/libclass_loader.so;/usr/lib/x86_64-linux-gnu/libPocoFoundation.so;/usr/lib/x86_64-linux-gnu/libdl.so;/opt/ros/noetic/lib/libroslz4.so;/usr/lib/x86_64-linux-gnu/liblz4.so;/opt/ros/noetic/lib/libtopic_tools.so;/opt/ros/noetic/lib/libroscpp.so;/usr/lib/x86_64-linux-gnu/libpthread.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;/opt/ros/noetic/lib/librosconsole.so;/opt/ros/noetic/lib/librosconsole_log4cxx.so;/opt/ros/noetic/lib/librosconsole_backend_interface.so;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;/opt/ros/noetic/lib/libroscpp_serialization.so;/opt/ros/noetic/lib/libxmlrpcpp.so;/opt/ros/noetic/lib/librostime.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;/opt/ros/noetic/lib/libcpp_common.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;/opt/ros/noetic/lib/libroslib.so;/opt/ros/noetic/lib/librospack.so;/usr/lib/x86_64-linux-gnu/libpython3.8.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;/usr/lib/x86_64-linux-gnu/libtinyxml2.so
+-- MARKING_TESTS
+-- +++ processing catkin package: 'quiz5_a2'
+-- ==> add_subdirectory(quiz5/a2)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+--  CMake C++ FLAGS -std=c++11  -Wno-deprecated -Wdeprecated-declarations
+--  catkin_LIBRARIES /opt/ros/noetic/lib/librosbag.so;/opt/ros/noetic/lib/librosbag_storage.so;/opt/ros/noetic/lib/libclass_loader.so;/usr/lib/x86_64-linux-gnu/libPocoFoundation.so;/usr/lib/x86_64-linux-gnu/libdl.so;/opt/ros/noetic/lib/libroslz4.so;/usr/lib/x86_64-linux-gnu/liblz4.so;/opt/ros/noetic/lib/libtopic_tools.so;/opt/ros/noetic/lib/libroscpp.so;/usr/lib/x86_64-linux-gnu/libpthread.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;/opt/ros/noetic/lib/librosconsole.so;/opt/ros/noetic/lib/librosconsole_log4cxx.so;/opt/ros/noetic/lib/librosconsole_backend_interface.so;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;/opt/ros/noetic/lib/libroscpp_serialization.so;/opt/ros/noetic/lib/libxmlrpcpp.so;/opt/ros/noetic/lib/librostime.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;/opt/ros/noetic/lib/libcpp_common.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;/opt/ros/noetic/lib/libroslib.so;/opt/ros/noetic/lib/librospack.so;/usr/lib/x86_64-linux-gnu/libpython3.8.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;/usr/lib/x86_64-linux-gnu/libtinyxml2.so
+-- +++ processing catkin package: 'sjtu_drone'
+-- ==> add_subdirectory(pfms-ros/sjtu-drone)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 2.88
+-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+-- Found assimp: /usr/include (found version "5.0.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-transport8 -- found version 8.3.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.2
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-fuel_tools4 -- found version 4.6.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.2
+-- Found YAML: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Checking for module 'OGRE-Terrain'
+--   Found OGRE-Terrain, version 1.9.0
+-- +++ processing catkin package: 'gazebo_tf'
+-- ==> add_subdirectory(pfms-ros/gazebo_tf)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- gazebo_tf: 0 messages, 4 services
+-- Include Dirs /opt/ros/noetic/include;/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp;/usr/include
+-- Include Libs /opt/ros/noetic/lib/libtf.so;/opt/ros/noetic/lib/libtf2_ros.so;/opt/ros/noetic/lib/libactionlib.so;/opt/ros/noetic/lib/libmessage_filters.so;/opt/ros/noetic/lib/libroscpp.so;/usr/lib/x86_64-linux-gnu/libpthread.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;/opt/ros/noetic/lib/libxmlrpcpp.so;/opt/ros/noetic/lib/libtf2.so;/opt/ros/noetic/lib/libroscpp_serialization.so;/opt/ros/noetic/lib/librosconsole.so;/opt/ros/noetic/lib/librosconsole_log4cxx.so;/opt/ros/noetic/lib/librosconsole_backend_interface.so;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;/opt/ros/noetic/lib/librostime.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;/opt/ros/noetic/lib/libcpp_common.so;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+-- +++ processing catkin package: 'audibot_gazebo'
+-- ==> add_subdirectory(pfms-ros/audibot/audibot_gazebo)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- Found Ogre Ghadamon (1.9.0)
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-transport8 -- found version 8.3.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.2
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-fuel_tools4 -- found version 4.6.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.2
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aalempij/pfms_ws/build
+Scanning dependencies of target quiz5_a2_rangeprocessing
+Scanning dependencies of target gtest
+[ 14%] Building CXX object quiz5/a2/CMakeFiles/quiz5_a2_rangeprocessing.dir/src/rangeprocessing.cpp.o
+[ 14%] Building CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+Scanning dependencies of target quiz5_a1_laserprocessing
+[ 21%] Building CXX object quiz5/a1/CMakeFiles/quiz5_a1_laserprocessing.dir/src/laserprocessing.cpp.o
+[ 28%] Linking CXX shared library /home/aalempij/pfms_ws/devel/lib/libquiz5_a2_rangeprocessing.so
+[ 28%] Built target quiz5_a2_rangeprocessing
+[ 35%] Linking CXX shared library /home/aalempij/pfms_ws/devel/lib/libquiz5_a1_laserprocessing.so
+[ 35%] Built target quiz5_a1_laserprocessing
+[ 42%] Linking CXX shared library ../lib/libgtest.so
+[ 42%] Built target gtest
+Scanning dependencies of target quiz5_a1_marking
+Scanning dependencies of target quiz5_a2_test
+[ 50%] Building CXX object quiz5/a1/CMakeFiles/quiz5_a1_marking.dir/marking/utest2.cpp.o
+Scanning dependencies of target quiz5_a1_selfmarking
+[ 57%] Building CXX object quiz5/a2/CMakeFiles/quiz5_a2_test.dir/test/utest.cpp.o
+Scanning dependencies of target quiz5_a1_test
+[ 64%] Building CXX object quiz5/a1/CMakeFiles/quiz5_a1_selfmarking.dir/marking/utest.cpp.o
+[ 71%] Building CXX object quiz5/a1/CMakeFiles/quiz5_a1_test.dir/test/utest.cpp.o
+[ 78%] Linking CXX executable /home/aalempij/pfms_ws/devel/lib/quiz5_a2/quiz5_a2_test
+[ 78%] Built target quiz5_a2_test
+[ 85%] Linking CXX executable /home/aalempij/pfms_ws/devel/lib/quiz5_a1/quiz5_a1_selfmarking
+[ 92%] Linking CXX executable /home/aalempij/pfms_ws/devel/lib/quiz5_a1/quiz5_a1_marking
+[100%] Linking CXX executable /home/aalempij/pfms_ws/devel/lib/quiz5_a1/quiz5_a1_test
+[100%] Built target quiz5_a1_selfmarking
+[100%] Built target quiz5_a1_marking
+[100%] Built target quiz5_a1_test
+Scanning dependencies of target tests
+[100%] Built target tests
+[ 33%] Built target gtest
+[ 66%] Built target quiz5_a1_laserprocessing
+[100%] Built target quiz5_a1_selfmarking
+Base path: /home/aalempij/pfms_ws
+Source space: /home/aalempij/pfms_ws/src
+Build space: /home/aalempij/pfms_ws/build
+Devel space: /home/aalempij/pfms_ws/devel
+Install space: /home/aalempij/pfms_ws/install
+####
+#### Running command: "cmake /home/aalempij/pfms_ws/src -DCATKIN_DEVEL_PREFIX=/home/aalempij/pfms_ws/devel -DCMAKE_INSTALL_PREFIX=/home/aalempij/pfms_ws/install -G Unix Makefiles" in "/home/aalempij/pfms_ws/build"
+####
+####
+#### Running command: "make tests quiz5_a1_selfmarking -j26 -l26" in "/home/aalempij/pfms_ws/build"
+####
+---------------------------------------------------------------------
+Executing marking self test part A1
+---------------------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from LaserProcessing
+[ RUN      ] LaserProcessing.CountSegments
+[0m[ INFO] [1684318867.135817208]: SEGMENT COUNT: 7[0m
+[       OK ] LaserProcessing.CountSegments (47 ms)
+[ RUN      ] LaserProcessing.DetectClosestCone
+[       OK ] LaserProcessing.DetectClosestCone (2 ms)
+[----------] 2 tests from LaserProcessing (49 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (49 ms total)
+[  PASSED  ] 2 tests.
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+**********************************************************************
+Making marking tests with quiz
+----------------------------------------------------------------------
+[ 35%] Built target gtest
+[ 42%] Built target quiz5_a2_rangeprocessing
+[ 42%] Built target quiz5_a1_laserprocessing
+[ 85%] Built target quiz5_a2_test
+[100%] Built target quiz5_a1_selfmarking
+[100%] Built target quiz5_a1_test
+[100%] Built target quiz5_a1_marking
+[100%] Built target tests
+[ 50%] Built target gtest
+[ 66%] Built target quiz5_a1_laserprocessing
+[100%] Built target quiz5_a1_marking
+Base path: /home/aalempij/pfms_ws
+Source space: /home/aalempij/pfms_ws/src
+Build space: /home/aalempij/pfms_ws/build
+Devel space: /home/aalempij/pfms_ws/devel
+Install space: /home/aalempij/pfms_ws/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/aalempij/pfms_ws/build"
+####
+####
+#### Running command: "make tests quiz5_a1_marking -j26 -l26" in "/home/aalempij/pfms_ws/build"
+####
+---------------------------------------------------------------------
+Executing marking test part A1
+---------------------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from LaserProcessing
+[ RUN      ] LaserProcessing.CountReturns
+[       OK ] LaserProcessing.CountReturns (42 ms)
+[ RUN      ] LaserProcessing.DetectRoadCentre
+[       OK ] LaserProcessing.DetectRoadCentre (3 ms)
+[----------] 2 tests from LaserProcessing (45 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (45 ms total)
+[  PASSED  ] 2 tests.
+---------------------------------------------------------------------
+Part A1 scored 4
+---------------------------------------------------------------------
+ A2 
+---------------------------------------------------------------------
+**********************************************************************
+Making tests distributed with quiz
+----------------------------------------------------------------------
+-- Using CATKIN_DEVEL_PREFIX: /home/aalempij/pfms_ws/devel
+-- Using CMAKE_PREFIX_PATH: /home/aalempij/pfms_ws/devel;/opt/ros/noetic
+-- This workspace overlays: /home/aalempij/pfms_ws/devel;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/aalempij/pfms_ws/build/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 8 packages in topological order:
+-- ~~  - audibot (metapackage)
+-- ~~  - audibot_description
+-- ~~  - rrbot_description
+-- ~~  - quiz5_a1
+-- ~~  - quiz5_a2
+-- ~~  - sjtu_drone
+-- ~~  - gazebo_tf
+-- ~~  - audibot_gazebo
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin metapackage: 'audibot'
+-- ==> add_subdirectory(pfms-ros/audibot/audibot)
+-- +++ processing catkin package: 'audibot_description'
+-- ==> add_subdirectory(pfms-ros/audibot/audibot_description)
+-- Extracting file: meshes.tar.xz
+-- +++ processing catkin package: 'rrbot_description'
+-- ==> add_subdirectory(pfms-ros/rrbot_description)
+-- +++ processing catkin package: 'quiz5_a1'
+-- ==> add_subdirectory(quiz5/a1)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+--  CMake C++ FLAGS -std=c++11  -Wno-deprecated -Wdeprecated-declarations
+--  catkin_LIBRARIES /opt/ros/noetic/lib/librosbag.so;/opt/ros/noetic/lib/librosbag_storage.so;/opt/ros/noetic/lib/libclass_loader.so;/usr/lib/x86_64-linux-gnu/libPocoFoundation.so;/usr/lib/x86_64-linux-gnu/libdl.so;/opt/ros/noetic/lib/libroslz4.so;/usr/lib/x86_64-linux-gnu/liblz4.so;/opt/ros/noetic/lib/libtopic_tools.so;/opt/ros/noetic/lib/libroscpp.so;/usr/lib/x86_64-linux-gnu/libpthread.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;/opt/ros/noetic/lib/librosconsole.so;/opt/ros/noetic/lib/librosconsole_log4cxx.so;/opt/ros/noetic/lib/librosconsole_backend_interface.so;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;/opt/ros/noetic/lib/libroscpp_serialization.so;/opt/ros/noetic/lib/libxmlrpcpp.so;/opt/ros/noetic/lib/librostime.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;/opt/ros/noetic/lib/libcpp_common.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;/opt/ros/noetic/lib/libroslib.so;/opt/ros/noetic/lib/librospack.so;/usr/lib/x86_64-linux-gnu/libpython3.8.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;/usr/lib/x86_64-linux-gnu/libtinyxml2.so
+-- MARKING_TESTS
+-- +++ processing catkin package: 'quiz5_a2'
+-- ==> add_subdirectory(quiz5/a2)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+--  CMake C++ FLAGS -std=c++11  -Wno-deprecated -Wdeprecated-declarations
+--  catkin_LIBRARIES /opt/ros/noetic/lib/librosbag.so;/opt/ros/noetic/lib/librosbag_storage.so;/opt/ros/noetic/lib/libclass_loader.so;/usr/lib/x86_64-linux-gnu/libPocoFoundation.so;/usr/lib/x86_64-linux-gnu/libdl.so;/opt/ros/noetic/lib/libroslz4.so;/usr/lib/x86_64-linux-gnu/liblz4.so;/opt/ros/noetic/lib/libtopic_tools.so;/opt/ros/noetic/lib/libroscpp.so;/usr/lib/x86_64-linux-gnu/libpthread.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;/opt/ros/noetic/lib/librosconsole.so;/opt/ros/noetic/lib/librosconsole_log4cxx.so;/opt/ros/noetic/lib/librosconsole_backend_interface.so;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;/opt/ros/noetic/lib/libroscpp_serialization.so;/opt/ros/noetic/lib/libxmlrpcpp.so;/opt/ros/noetic/lib/librostime.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;/opt/ros/noetic/lib/libcpp_common.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;/opt/ros/noetic/lib/libroslib.so;/opt/ros/noetic/lib/librospack.so;/usr/lib/x86_64-linux-gnu/libpython3.8.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;/usr/lib/x86_64-linux-gnu/libtinyxml2.so
+-- MARKING_TESTS
+-- +++ processing catkin package: 'sjtu_drone'
+-- ==> add_subdirectory(pfms-ros/sjtu-drone)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- Found Ogre Ghadamon (1.9.0)
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-transport8 -- found version 8.3.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.2
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-fuel_tools4 -- found version 4.6.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.2
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- +++ processing catkin package: 'gazebo_tf'
+-- ==> add_subdirectory(pfms-ros/gazebo_tf)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- gazebo_tf: 0 messages, 4 services
+-- Include Dirs /opt/ros/noetic/include;/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp;/usr/include
+-- Include Libs /opt/ros/noetic/lib/libtf.so;/opt/ros/noetic/lib/libtf2_ros.so;/opt/ros/noetic/lib/libactionlib.so;/opt/ros/noetic/lib/libmessage_filters.so;/opt/ros/noetic/lib/libroscpp.so;/usr/lib/x86_64-linux-gnu/libpthread.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;/opt/ros/noetic/lib/libxmlrpcpp.so;/opt/ros/noetic/lib/libtf2.so;/opt/ros/noetic/lib/libroscpp_serialization.so;/opt/ros/noetic/lib/librosconsole.so;/opt/ros/noetic/lib/librosconsole_log4cxx.so;/opt/ros/noetic/lib/librosconsole_backend_interface.so;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;/opt/ros/noetic/lib/librostime.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;/opt/ros/noetic/lib/libcpp_common.so;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+-- +++ processing catkin package: 'audibot_gazebo'
+-- ==> add_subdirectory(pfms-ros/audibot/audibot_gazebo)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- Found Ogre Ghadamon (1.9.0)
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-transport8 -- found version 8.3.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.2
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-fuel_tools4 -- found version 4.6.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.2
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Configuring done
+WARNING: Target "plugin_ros_cam" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "plugin_ros_cam" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "plugin_ros_cam" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "plugin_ros_init" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "plugin_ros_init" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "plugin_ros_init" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: /home/aalempij/pfms_ws/build
+[ 22%] Built target quiz5_a2_rangeprocessing
+[ 22%] Built target gtest
+[ 33%] Built target quiz5_a1_laserprocessing
+Scanning dependencies of target quiz5_a2_selfmarking
+Scanning dependencies of target quiz5_a2_marking
+[ 44%] Built target quiz5_a2_test
+[ 88%] Building CXX object quiz5/a2/CMakeFiles/quiz5_a2_marking.dir/marking/utest2.cpp.o
+[ 88%] Building CXX object quiz5/a2/CMakeFiles/quiz5_a2_selfmarking.dir/marking/utest.cpp.o
+[ 88%] Built target quiz5_a1_test
+[ 88%] Built target quiz5_a1_marking
+[ 88%] Built target quiz5_a1_selfmarking
+[ 94%] Linking CXX executable /home/aalempij/pfms_ws/devel/lib/quiz5_a2/quiz5_a2_selfmarking
+[100%] Linking CXX executable /home/aalempij/pfms_ws/devel/lib/quiz5_a2/quiz5_a2_marking
+[100%] Built target quiz5_a2_selfmarking
+[100%] Built target quiz5_a2_marking
+[100%] Built target tests
+[ 66%] Built target gtest
+[ 66%] Built target quiz5_a1_laserprocessing
+[100%] Built target quiz5_a1_selfmarking
+Base path: /home/aalempij/pfms_ws
+Source space: /home/aalempij/pfms_ws/src
+Build space: /home/aalempij/pfms_ws/build
+Devel space: /home/aalempij/pfms_ws/devel
+Install space: /home/aalempij/pfms_ws/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/aalempij/pfms_ws/build"
+####
+####
+#### Running command: "make tests quiz5_a1_selfmarking -j26 -l26" in "/home/aalempij/pfms_ws/build"
+####
+---------------------------------------------------------------------
+Executing marking self test part A2
+---------------------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from RangeProcessing
+[ RUN      ] RangeProcessing.DetectHeightOfObject
+[       OK ] RangeProcessing.DetectHeightOfObject (59 ms)
+[ RUN      ] RangeProcessing.DetectPerson
+[       OK ] RangeProcessing.DetectPerson (3 ms)
+[----------] 2 tests from RangeProcessing (62 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (62 ms total)
+[  PASSED  ] 2 tests.
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+**********************************************************************
+Making marking tests with quiz
+----------------------------------------------------------------------
+[ 33%] Built target gtest
+[ 33%] Built target quiz5_a2_rangeprocessing
+[ 33%] Built target quiz5_a1_laserprocessing
+[ 55%] Built target quiz5_a2_test
+[ 66%] Built target quiz5_a2_selfmarking
+[ 66%] Built target quiz5_a2_marking
+[100%] Built target quiz5_a1_marking
+[100%] Built target quiz5_a1_selfmarking
+[100%] Built target quiz5_a1_test
+[100%] Built target tests
+[ 66%] Built target gtest
+[ 66%] Built target quiz5_a2_rangeprocessing
+[100%] Built target quiz5_a2_marking
+Base path: /home/aalempij/pfms_ws
+Source space: /home/aalempij/pfms_ws/src
+Build space: /home/aalempij/pfms_ws/build
+Devel space: /home/aalempij/pfms_ws/devel
+Install space: /home/aalempij/pfms_ws/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/aalempij/pfms_ws/build"
+####
+####
+#### Running command: "make tests quiz5_a2_marking -j26 -l26" in "/home/aalempij/pfms_ws/build"
+####
+---------------------------------------------------------------------
+Part A2 scored 2

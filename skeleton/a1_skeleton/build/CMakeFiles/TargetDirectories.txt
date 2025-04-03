@@ -1,0 +1,12 @@
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/CMakeFiles/rebuild_cache.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/CMakeFiles/edit_cache.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/CMakeFiles/a1.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/CMakeFiles/mission.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/CMakeFiles/controller.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test/CMakeFiles/rebuild_cache.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test/CMakeFiles/my_test.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test/CMakeFiles/calcTests.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test/CMakeFiles/missionTests.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test/CMakeFiles/audiTests.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test/CMakeFiles/edit_cache.dir
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test/CMakeFiles/student_lib.dir

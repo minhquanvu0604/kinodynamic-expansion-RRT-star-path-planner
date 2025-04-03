@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g  -rdynamic CMakeFiles/assignment2.dir/main.cpp.o  -o assignment2   -L/opt/ros/noetic/lib  -L/opt/ros/melodic/lib  -Wl,-rpath,/opt/ros/noetic/lib:/opt/ros/melodic/lib liblogger.a libcontroller.a libmission.a -lpipes libgraphsearch.a -lpipes 

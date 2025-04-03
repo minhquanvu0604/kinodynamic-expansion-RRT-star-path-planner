@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11  -g  -shared -Wl,-soname,libweek11_quad_controllers.so -o devel/lib/libweek11_quad_controllers.so CMakeFiles/week11_quad_controllers.dir/src/controller.cpp.o CMakeFiles/week11_quad_controllers.dir/src/quadcopter.cpp.o 

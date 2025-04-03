@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11  -g  -shared -Wl,-soname,libcontrollers.so -o devel/lib/libcontrollers.so CMakeFiles/controllers.dir/src/controller.cpp.o CMakeFiles/controllers.dir/src/quadcopter.cpp.o 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g  -rdynamic CMakeFiles/audiTests.dir/test_audi.cpp.o  -o audiTests   -L/opt/ros/noetic/lib  -L/opt/ros/melodic/lib  -Wl,-rpath,/opt/ros/noetic/lib:/opt/ros/melodic/lib /usr/src/gtest/lib/libgtest.a -llinkcommand libstudent_lib.a -lpthread -lpipes 

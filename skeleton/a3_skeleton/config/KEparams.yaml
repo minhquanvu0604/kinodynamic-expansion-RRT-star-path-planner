@@ -1,0 +1,8 @@
+configNumToExpand: 2
+obstacleSize: 3
+expandDist: 3
+expandAngle: 10
+maxDepth: 10
+maxRangeFromCone: 10
+distToExclude: 10
+neighboorhoodRange: 1

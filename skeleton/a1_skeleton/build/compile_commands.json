@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include   -std=c++11 -g   -o CMakeFiles/a1.dir/main.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/main.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/main.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include   -std=c++11 -g   -o CMakeFiles/mission.dir/mission.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/mission.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/mission.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include   -std=c++11 -g   -o CMakeFiles/controller.dir/controller.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/controller.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/controller.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include   -std=c++11 -g   -o CMakeFiles/controller.dir/ackerman.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/ackerman.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/ackerman.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include -I/usr/src/gtest/include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/../include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/..   -std=c++11 -g   -o CMakeFiles/my_test.dir/my_test.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/my_test.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/my_test.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include -I/usr/src/gtest/include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/../include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/..   -std=c++11 -g   -o CMakeFiles/calcTests.dir/test_calculations.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/test_calculations.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/test_calculations.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include -I/usr/src/gtest/include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/../include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/..   -std=c++11 -g   -o CMakeFiles/missionTests.dir/test_mission.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/test_mission.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/test_mission.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include -I/usr/src/gtest/include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/../include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/..   -std=c++11 -g   -o CMakeFiles/audiTests.dir/test_audi.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/test_audi.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/test_audi.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include -I/usr/src/gtest/include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/../include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/..   -std=c++11 -g   -o CMakeFiles/student_lib.dir/__/ackerman.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/ackerman.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/ackerman.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include -I/usr/src/gtest/include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/../include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/..   -std=c++11 -g   -o CMakeFiles/student_lib.dir/__/controller.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/controller.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/controller.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/build/test",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include -I/usr/src/gtest/include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/../include -I/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/test/..   -std=c++11 -g   -o CMakeFiles/student_lib.dir/__/mission.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/mission.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_skeleton/mission.cpp"
+}
+]

@@ -1,0 +1,25 @@
+
+/** \mainpage
+
+@htmlinclude manifest.html
+
+@b This is a sample package prepared for PfMS to assist students in Mastering Services for Week 11
+
+@section information Information
+
+Nothin here yet! This index page for the package just contains empty headers for sections to allow students to inspect syntax of doxygen.
+
+@subsection test_filter TestFilter
+
+Nothing here yet!
+
+ - ros::Time stamp_
+ - std::string frame_id_
+ - std::string child_frame_id_  (only used for Stamped<Transform> )
+
+- Time represented by ros::Time and ros::Duration in ros/time.h in roscpp 
+
+
+
+*/
+

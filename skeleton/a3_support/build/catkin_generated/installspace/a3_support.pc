@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: a3_support
+Description: Description of a3_support
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

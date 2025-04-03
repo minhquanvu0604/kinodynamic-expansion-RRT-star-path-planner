@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/populate_first.cpp
+pipes.h
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/pipes.h
+iostream
+-
+stdlib.h
+-
+thread
+-
+chrono
+-
+linkcommand.h
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/linkcommand.h
+test_helper.h
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/test_helper.h
+pfms_types.h
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/pfms_types.h
+
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/test_helper.h
+pfms_types.h
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a1_snippets/pfms_types.h
+cmath
+-
+

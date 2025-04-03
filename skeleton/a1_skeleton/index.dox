@@ -1,0 +1,21 @@
+/*!
+
+*/
+
+// without this gap between two doxygen definition, the last group does not get
+// populated properly for some reason.
+
+/*!
+@mainpage Assignment 1: Skeleton
+
+This is the landing page of your doxygen documentation.
+
+You should note what the code does, how it should be run and what to expect when running it.
+Include small images (<20kB, compress them and shrink)
+
+Look at our other example of a dox file in week04.
+
+@n By Alen Alempijevic
+@n Alen.Alempijevic@uts.edu.au
+
+*/

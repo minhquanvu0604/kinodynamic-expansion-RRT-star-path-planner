@@ -1,0 +1,8 @@
+prefix=/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week11/wk11_starter/tests_masterclass/build/devel
+
+Name: week11_laser
+Description: Description of week11_laser
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

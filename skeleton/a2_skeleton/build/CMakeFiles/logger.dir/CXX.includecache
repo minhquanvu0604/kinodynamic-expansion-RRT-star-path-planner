@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a2_skeleton/logger.cpp
+logger.h
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a2_skeleton/logger.h
+iostream
+-
+
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a2_skeleton/logger.h
+pfms_types.h
+/home/quanvu/git/pfms-2023a-minhquanvu0604/skeleton/a2_skeleton/pfms_types.h
+string
+-
+sstream
+-
+fstream
+-
+vector
+-
+

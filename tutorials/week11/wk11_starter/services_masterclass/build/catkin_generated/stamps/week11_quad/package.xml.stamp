@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+  <name>week11_quad</name>
+  <version>0.0.2</version>
+  <description>Week11 Tutorial package</description>
+
+  <maintainer email="Alen.Alempijevic@uts.edu.au">Alen Alempijevic</maintainer>
+
+  <license>MIT</license>
+
+  <author email="Alen.Alempijevic@uts.edu.au">Alen Alempijevic</author>
+
+  <!-- Use test_depend for packages you need only for testing: -->
+  <!--   <test_depend>gtest</test_depend> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>rosbag</build_depend>
+  <build_depend>roslib</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>rosbag</run_depend>
+  <run_depend>roslib</run_depend>
+  <run_depend>message_runtime</run_depend>
+
+</package>
+

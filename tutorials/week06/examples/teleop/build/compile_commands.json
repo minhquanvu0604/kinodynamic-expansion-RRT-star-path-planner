@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week06/examples/teleop/build",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include   -std=c++11 -pthread -g   -o CMakeFiles/teleop.dir/main.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week06/examples/teleop/main.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week06/examples/teleop/main.cpp"
+},
+{
+  "directory": "/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week06/examples/teleop/build",
+  "command": "/usr/bin/c++   -I/opt/ros/noetic/include -I/opt/ros/melodic/include   -std=c++11 -pthread -g   -o CMakeFiles/ackerman.dir/ackerman.cpp.o -c /home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week06/examples/teleop/ackerman.cpp",
+  "file": "/home/quanvu/git/pfms-2023a-minhquanvu0604/tutorials/week06/examples/teleop/ackerman.cpp"
+}
+]

@@ -1,0 +1,45 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/quanvu/catkin_ws/devel/include/**",
+        "/home/quanvu/ros/tony_ws/devel/include/**",
+        "/home/quanvu/git/MVPS/build/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/quanvu/ros/apple_ws/devel/include/**",
+        "/opt/libtorch/include/**",
+        "/opt/libtorch/include/**",
+        "/home/quanvu/ros/apple_ws/src/apple_picking_state_machine/include/**",
+        "/home/quanvu/git/MVPS/projects/hydra/arm_module/include/**",
+        "/home/quanvu/catkin_ws/src/pfms-ros/audibot/audibot_gazebo/include/**",
+        "/home/quanvu/git/MVPS/projects/hydra/camera_module/include/**",
+        "/home/quanvu/git/MVPS/projects/hydra/depth_processing/include/**",
+        "/home/quanvu/git/MVPS/projects/hydra/hydra_gui/include/**",
+        "/home/quanvu/git/MVPS/projects/hydra/hydra_utils/include/**",
+        "/home/quanvu/catkin_ws/src/learning_joy/include/**",
+        "/home/quanvu/git/MVPS/projects/hydra/mapping_module/include/**",
+        "/home/quanvu/git/MVPS/projects/hydra/point_cloud_io/include/**",
+        "/home/quanvu/ros/apple_ws/src/segmentation_module/pointcloud_filter/include/**",
+        "/home/quanvu/ros/tony_ws/src/xr_robot_demos/ros/reality_stream/include/**",
+        "/home/quanvu/ros/apple_ws/src/realsense_gazebo_plugin/include/**",
+        "/home/quanvu/ros/tony_ws/src/roboticsgroup_upatras_gazebo_plugins/include/**",
+        "/home/quanvu/git/MVPS/projects/hydra/segmentation_module/include/**",
+        "/home/quanvu/catkin_ws/src/pfms-ros/sjtu-drone/include/**",
+        "/home/quanvu/git/MVPS/projects/hydra/state_machine/include/**",
+        "/home/quanvu/ros/tony_ws/src/xr_robot_demos/ros/ur_teleop_twist_joy/include/**",
+        "/home/quanvu/ros/tony_ws/src/ur_onrobot/ur_onrobot_rg_control/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

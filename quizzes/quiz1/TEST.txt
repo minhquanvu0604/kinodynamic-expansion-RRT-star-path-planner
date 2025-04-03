@@ -1,0 +1,152 @@
+---------------------------------------------------------------------
+ A1 
+---------------------------------------------------------------------
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GTest: /usr/lib/x86_64-linux-gnu/libgtest.a  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aalempij/Data/git/pfms-2023a-/pfms-2023a-minhquanvu0604/quizzes/quiz1/a1/build
+**********************************************************************
+Making tests distributed with quiz
+----------------------------------------------------------------------
+Scanning dependencies of target processingMarking
+[ 16%] Building CXX object marking/CMakeFiles/processingMarking.dir/__/processing.cpp.o
+[ 33%] Linking CXX static library libprocessingMarking.a
+[ 33%] Built target processingMarking
+Scanning dependencies of target personMarking
+[ 50%] Building CXX object marking/CMakeFiles/personMarking.dir/__/person.cpp.o
+[ 66%] Linking CXX static library libpersonMarking.a
+[ 66%] Built target personMarking
+Scanning dependencies of target selfTest
+[ 83%] Building CXX object marking/CMakeFiles/selfTest.dir/utest.cpp.o
+[100%] Linking CXX executable selfTest
+[100%] Built target selfTest
+----------------------------------------------------------------------
+Executing tests distributed with quiz
+---------------------------------------------------------------------
+[==========] Running 2 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from ClassTest
+[ RUN      ] ClassTest.CreateObject
+[       OK ] ClassTest.CreateObject (0 ms)
+[----------] 1 test from ClassTest (0 ms total)
+
+[----------] 1 test from FunctionTest
+[ RUN      ] FunctionTest.DetectVaccineEligibility
+[       OK ] FunctionTest.DetectVaccineEligibility (0 ms)
+[----------] 1 test from FunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 2 tests.
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+Making marking tests 
+----------------------------------------------------------------------
+[ 33%] Built target processingMarking
+[ 66%] Built target personMarking
+Scanning dependencies of target markingTest
+[ 83%] Building CXX object marking/CMakeFiles/markingTest.dir/utest2.cpp.o
+[100%] Linking CXX executable markingTest
+[100%] Built target markingTest
+----------------------------------------------------------------------
+**********************************************************************
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from FunctionTest
+[ RUN      ] FunctionTest.CheckVacinated
+[       OK ] FunctionTest.CheckVacinated (0 ms)
+[ RUN      ] FunctionTest.DetectOldest
+[       OK ] FunctionTest.DetectOldest (0 ms)
+[----------] 2 tests from FunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+---------------------------------------------------------------------
+ A2 
+---------------------------------------------------------------------
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GTest: /usr/lib/x86_64-linux-gnu/libgtest.a  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aalempij/Data/git/pfms-2023a-/pfms-2023a-minhquanvu0604/quizzes/quiz1/a2/build
+**********************************************************************
+Making tests distributed with quiz
+----------------------------------------------------------------------
+Scanning dependencies of target processingTesting
+[ 14%] Building CXX object marking/CMakeFiles/processingTesting.dir/__/processing.cpp.o
+[ 28%] Linking CXX static library libprocessingTesting.a
+[ 28%] Built target processingTesting
+Scanning dependencies of target shapesTesting
+[ 42%] Building CXX object marking/CMakeFiles/shapesTesting.dir/__/shape.cpp.o
+[ 57%] Building CXX object marking/CMakeFiles/shapesTesting.dir/__/rectangle.cpp.o
+[ 71%] Linking CXX static library libshapesTesting.a
+[ 71%] Built target shapesTesting
+Scanning dependencies of target selfTest
+[ 85%] Building CXX object marking/CMakeFiles/selfTest.dir/utest.cpp.o
+[100%] Linking CXX executable selfTest
+[100%] Built target selfTest
+----------------------------------------------------------------------
+Executing tests distributed with quiz
+---------------------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ClassTest
+[ RUN      ] ClassTest.CreateObject
+[       OK ] ClassTest.CreateObject (0 ms)
+[----------] 1 test from ClassTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+---------------------------------------------------------------------
+----------------------------------------------------------------------
+Making marking test 
+----------------------------------------------------------------------
+[ 28%] Built target processingTesting
+[ 71%] Built target shapesTesting
+Scanning dependencies of target markingTest
+[ 85%] Building CXX object marking/CMakeFiles/markingTest.dir/utest2.cpp.o
+[100%] Linking CXX executable markingTest
+[100%] Built target markingTest
+----------------------------------------------------------------------
+Executing marking test
+---------------------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ContainerTest
+[ RUN      ] ContainerTest.RemoveElements
+[       OK ] ContainerTest.RemoveElements (0 ms)
+[----------] 1 test from ContainerTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+---------------------------------------------------------------------
