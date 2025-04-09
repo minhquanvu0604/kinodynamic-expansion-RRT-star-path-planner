@@ -2,7 +2,7 @@
 ROS Noetic 
 
 <p align="center">
-  <img width="95%" alt="demo_gif" src="wiki\demo.gif">
+  <img width="95%" alt="demo_gif" src="wiki\demo1.gif">
 </p>
 
 2 packages in workspace:
