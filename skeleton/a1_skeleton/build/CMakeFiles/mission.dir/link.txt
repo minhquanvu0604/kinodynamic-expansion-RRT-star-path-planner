@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmission.a  CMakeFiles/mission.dir/mission.cpp.o
-/usr/bin/ranlib libmission.a

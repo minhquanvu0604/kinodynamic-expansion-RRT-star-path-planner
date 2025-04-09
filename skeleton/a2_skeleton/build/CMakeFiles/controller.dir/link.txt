@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcontroller.a  CMakeFiles/controller.dir/controller.cpp.o CMakeFiles/controller.dir/ackerman.cpp.o CMakeFiles/controller.dir/quadcopter.cpp.o
-/usr/bin/ranlib libcontroller.a
