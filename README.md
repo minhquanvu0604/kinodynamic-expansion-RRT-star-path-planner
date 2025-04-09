@@ -1,4 +1,10 @@
 # Running Setup - Kinodynamic Expansion
+ROS Noetic 
+
+<p align="center">
+  <img width="95%" alt="demo_gif" src="wiki\demo.gif">
+</p>
+
 2 packages in workspace:
 - pfms-ros from pfms-support (branch noetic)
 - a3_skeleton from kinodynamic-expansion-RRT-star-path-planner (migrated from pfms subject repo)
